@@ -1,5 +1,33 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Mary Creason
-description: 
+# Site settings
+name: Mary Creason
+email: mary.e.creason@gmail.com
+#canonical_url: https://edwinexemplar.com
+keywords: "Software Engineer, Python, Ruby, API, Deep Learning, Vue, Agile, Pair Programming"
+skills: "Techical Team Lead in Overland Park, KS"
+baseurl:
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# You should replace these with your social networks, of course. :)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/mary-creason-73775b22/
+    
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: A9A9A9
+  primary-rgb: "169, 169, 169"
+  secondary: 285172
+  secondary-dark: 29455b
+  section-tout: eaf1f1
+
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
